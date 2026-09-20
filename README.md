@@ -4,14 +4,16 @@ Exercícios de Console em C#, baseados nas aulas do professor Lucas Teodoro dos 
 
 ## Etapa atual
 
-Questão 1: biblioteca com herança e Pattern Matching. O programa demonstra os sete resultados previstos no enunciado, incluindo os limites de 3 empréstimos para alunos e 5 para professores.
+- Questão 1: biblioteca com herança e Pattern Matching. Demonstra os sete resultados previstos, incluindo os limites de 3 empréstimos para alunos e 5 para professores.
+- Questão 2: Reflection aberta exibe as seis propriedades de Equipamento. A controlada exibe somente Nome, Fabricante, Valor e Localizacao, marcadas com [Exibir].
 
-Requisito: SDK .NET 9.
+Requisito: SDK .NET 9. Execute um exercício por vez:
 
 ```sh
 dotnet run --project Questao1-Biblioteca
+dotnet run --project Questao2-Reflection
 ```
 
-As questões 2 (Reflection) e 3 (DTO de reserva) ainda não foram incluídas nesta versão.
+A questão 3 (DTO de reserva) ainda não foi incluída nesta versão.
 
-Referência: [código das aulas](https://github.com/teodorolucaas/ProgramacaoAplicadaDotNet/tree/main/PatternMatching). Os exemplos de funcionários foram adaptados para usuários da biblioteca.
+Referência: [código das aulas](https://github.com/teodorolucaas/ProgramacaoAplicadaDotNet). Os exemplos de PatternMatching foram adaptados para usuários da biblioteca e os de Reflection_Attributes para equipamentos.
